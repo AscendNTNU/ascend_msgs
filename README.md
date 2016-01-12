@@ -1,8 +1,6 @@
 # ascend_msgs
 This ROS package contains all custom ROS message types used in all workspaces
 
-#### TODO: Move to separate repo, include in other workspace repos as submodule
-
 ### Adding a new message type
 Create a new message description file in [msg](msg)
 
