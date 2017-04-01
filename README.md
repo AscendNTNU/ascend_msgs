@@ -1,4 +1,7 @@
 # ascend_msgs
+
+[![Build Status](http://build.ascendntnu.no/job/ascend_msgs/badge/icon)](http://build.ascendntnu.no/job/ascend_msgs/)
+
 This ROS package contains all custom ROS message types used in all workspaces
 
 ### Adding a new message type
