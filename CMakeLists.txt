@@ -106,7 +106,7 @@ add_message_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ascend_msgs
-  CATKIN_DEPENDS message_runtime geometry_msgs std_msg
+  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs
 #  DEPENDS system_lib
 )
 
