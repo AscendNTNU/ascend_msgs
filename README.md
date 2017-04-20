@@ -4,6 +4,9 @@
 
 This ROS package contains all custom ROS message types used in all workspaces
 
+### Before you add a new custom message: are you _really_ sure you need one?
+First have a look in the [common_msgs](http://wiki.ros.org/common_msgs?distro=kinetic) package to find out if any of the message types included in ROS works for you.
+
 ### Adding a new message type
 Create a new message description file in [msg](msg)
 
