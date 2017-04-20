@@ -49,8 +49,10 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
-   H264Frame.msg
    LineCounter.msg
+   ObstaclePolar.msg
+   ObstaclePolarArray.msg
+   PointArray.msg
 )
 
 ## Generate services in the 'srv' folder
