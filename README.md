@@ -10,6 +10,15 @@ First have a look in the [common_msgs](http://wiki.ros.org/common_msgs?distro=ki
 ### Adding a new message type
 Create a new message description file in [msg](msg)
 
+Add the message in the list of messages in the CMakeLists.txt file in this repo
+```txt
+## Generate messages in the 'msg' folder
+add_message_files(
+   FILES
+   LineCounter.msg
+)
+```
+
 ### Using the messages in your package
 In your `package.xml`, add these dependencies
 ```xml
@@ -30,5 +39,5 @@ catkin_package(
 ```
 Include the messages in your source code, i.e.
 ```cpp
-#include <ascend_msgs/H264Frame.h>
+#include <ascend_msgs/LineCounter.h>
 ```
