@@ -53,6 +53,7 @@ add_message_files(
    ObstaclePolar.msg
    ObstaclePolarArray.msg
    PointArray.msg
+   PathPlannerPlan.msg
 )
 
 ## Generate services in the 'srv' folder
