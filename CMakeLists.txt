@@ -54,6 +54,7 @@ add_message_files(
    ObstaclePolarArray.msg
    PointArray.msg
    PathPlannerPlan.msg
+   JetsonStatus.msg
 )
 
 ## Generate services in the 'srv' folder
