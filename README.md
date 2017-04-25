@@ -37,6 +37,10 @@ catkin_package(
     DEPENDS
 )
 ```
+```txt
+add_dependencies(<your executable> ascend_msgs_generate_messages_cpp)
+```
+
 Include the messages in your source code, i.e.
 ```cpp
 #include <ascend_msgs/LineCounter.h>
