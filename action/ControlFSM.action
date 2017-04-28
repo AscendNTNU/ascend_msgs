@@ -13,4 +13,4 @@ int16 gbNr
 bool finished
 ---
 #Progress
-bool inProgress
+string progression
