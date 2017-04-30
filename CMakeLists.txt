@@ -62,6 +62,7 @@ add_message_files(
 add_service_files(
    FILES
    ControlFSMEvent.srv
+   PositionWarning.srv
 )
 
 ## Generate actions in the 'action' folder
