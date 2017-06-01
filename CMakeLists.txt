@@ -56,6 +56,7 @@ add_message_files(
    PointArray.msg
    PathPlannerPlan.msg
    JetsonStatus.msg
+   BoolStamped.msg
 )
 
 ## Generate services in the 'srv' folder
