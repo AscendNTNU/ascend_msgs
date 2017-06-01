@@ -1,2 +1,2 @@
 Header header
-Bool value
+bool value
