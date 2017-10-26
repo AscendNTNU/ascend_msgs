@@ -57,6 +57,8 @@ add_message_files(
    PathPlannerPlan.msg
    JetsonStatus.msg
    BoolStamped.msg
+   DetectedRobots.msg
+   DetectedRobotsGlobalPositions.msg
 )
 
 ## Generate services in the 'srv' folder
