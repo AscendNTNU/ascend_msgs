@@ -59,6 +59,8 @@ add_message_files(
    BoolStamped.msg
    DetectedRobots.msg
    DetectedRobotsGlobalPositions.msg
+   Particle.msg
+   ParticleArray.msg
 )
 
 ## Generate services in the 'srv' folder
