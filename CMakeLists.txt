@@ -9,6 +9,7 @@ project(ascend_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
+  sensor_msgs
   std_msgs
   message_generation
   actionlib_msgs
@@ -78,6 +79,7 @@ add_action_files(
  generate_messages(
    DEPENDENCIES
    std_msgs
+   sensor_msgs
    geometry_msgs
    actionlib_msgs
  )
@@ -114,7 +116,7 @@ add_action_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ascend_msgs
-  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs
+  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs sensor_msgs
 #  DEPENDS system_lib
 )
 
