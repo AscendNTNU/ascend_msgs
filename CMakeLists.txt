@@ -62,6 +62,8 @@ add_message_files(
    DetectedRobotsGlobalPositions.msg
    Particle.msg
    ParticleArray.msg
+   GRState.msg
+   GRStateArray.msg
 )
 
 ## Generate services in the 'srv' folder
