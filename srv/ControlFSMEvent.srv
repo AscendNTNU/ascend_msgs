@@ -38,12 +38,7 @@ int8 eventType
 float32 x
 float32 y
 float32 z
-float32 yaw
-
-#Ground robot nr
-int8 gbnr
 ---
-string stateName
 bool accepted
 string errorMsg
 
