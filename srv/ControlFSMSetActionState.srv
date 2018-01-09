@@ -1,0 +1,4 @@
+bool ai_enabled
+bool debug_enabled
+---
+bool result
