@@ -17,8 +17,6 @@ int8 cmd #Action type
 int8 target_id
 int8 caller_id
 ---
-#Result
-bool finished
 ---
 #Progress
 float32 vel_estimate
