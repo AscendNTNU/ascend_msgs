@@ -60,6 +60,10 @@ add_message_files(
    BoolStamped.msg
    DetectedRobots.msg
    DetectedRobotsGlobalPositions.msg
+   Particle.msg
+   ParticleArray.msg
+   GRState.msg
+   GRStateArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -67,6 +71,7 @@ add_service_files(
    FILES
    ControlFSMEvent.srv
    PositionWarning.srv
+   ControlFSMSetActionState.srv
 )
 
 ## Generate actions in the 'action' folder
