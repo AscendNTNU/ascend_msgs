@@ -17,6 +17,7 @@ int8 cmd #Action type
 int8 target_id
 int8 caller_id
 ---
+# Result is intentionally left blank as it was not used
 ---
 #Progress
 float32 vel_estimate
