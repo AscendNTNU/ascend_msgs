@@ -6,6 +6,9 @@ uint8 count
 # The global position of the detected robots
 geometry_msgs/Point32[] global_robot_position
 
+# Probability that the position is correct
+float32[] position_probability
+
 # The color / type of the detected robots
 uint8[] robot_color
 
