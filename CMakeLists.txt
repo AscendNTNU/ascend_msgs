@@ -72,6 +72,8 @@ add_service_files(
    ControlFSMEvent.srv
    PositionWarning.srv
    ControlFSMSetActionState.srv
+   StringService.srv
+   ReloadConfig.srv
 )
 
 ## Generate actions in the 'action' folder
