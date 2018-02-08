@@ -5,6 +5,7 @@ int8 GO_TO_XYZ = 2
 int8 LAND_AT_POINT = 3
 int8 TRACK = 4
 int8 SEARCH = 5
+int8 TAKEOFF = 6
 
 int8 CALLER_AI = 50
 int8 CALLER_DEBUGGER = 51
