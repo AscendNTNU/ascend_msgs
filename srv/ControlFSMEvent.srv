@@ -28,6 +28,7 @@ int8 GROUNDDETECTED = 20
 int8 LANDXY = 21
 int8 GOTOXYZ = 22
 int8 LANDGB = 23
+int8 TAKEOFF = 24
 
 #Event variables
 int8 commandType
