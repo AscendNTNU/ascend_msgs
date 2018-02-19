@@ -65,6 +65,7 @@ add_message_files(
    GRState.msg
    GRStateArray.msg
    ControlFSMState.msg
+   AIWorldObservation.msg
 )
 
 ## Generate services in the 'srv' folder
