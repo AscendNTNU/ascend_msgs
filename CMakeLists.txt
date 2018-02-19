@@ -64,6 +64,7 @@ add_message_files(
    ParticleArray.msg
    GRState.msg
    GRStateArray.msg
+   ControlFSMState.msg
 )
 
 ## Generate services in the 'srv' folder
