@@ -5,6 +5,7 @@ int8 GO_TO_XYZ = 2
 int8 LAND_AT_POINT = 3
 int8 TRACK = 4
 int8 SEARCH = 5
+int8 TAKEOFF = 6
 
 int8 CALLER_AI = 50
 int8 CALLER_DEBUGGER = 51
@@ -12,12 +13,12 @@ int8 CALLER_DEBUGGER = 51
 float32 x
 float32 y
 float32 z
+float32 reward
 int8 cmd #Action type
 int8 target_id
 int8 caller_id
 ---
-#Result
-bool finished
+# Result is intentionally left blank as it was not used. ActionLib informs us if action succeded or was aborted.
 ---
 #Progress
 float32 vel_estimate
