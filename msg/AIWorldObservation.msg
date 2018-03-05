@@ -1,6 +1,6 @@
 Header header
 
-float32 time_elapsed
+float32 elapsed_time
 
 geometry_msgs/Point32 drone_position
 
