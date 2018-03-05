@@ -67,6 +67,7 @@ add_message_files(
    ControlFSMState.msg
    AIWorldObservation.msg
    PointArrayStamped.msg
+   LandDetector.msg
 )
 
 ## Generate services in the 'srv' folder
