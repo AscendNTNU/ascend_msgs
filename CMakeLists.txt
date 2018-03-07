@@ -65,6 +65,10 @@ add_message_files(
    PolygonArray.msg
    GRState.msg
    GRStateArray.msg
+   ControlFSMState.msg
+   AIWorldObservation.msg
+   PointArrayStamped.msg
+   LandDetector.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -75,6 +79,7 @@ add_service_files(
    ControlFSMSetActionState.srv
    StringService.srv
    ReloadConfig.srv
+   PathPlanner.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -17,3 +17,6 @@ float32[] direction
 
 # The probability that the direction estimate is correct
 float32[] direction_probability
+
+# The camera type of the detected robot, 0 = fisheye, 1 = side camera
+uint8[] camera_type
