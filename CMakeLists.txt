@@ -62,6 +62,7 @@ add_message_files(
    DetectedRobotsGlobalPositions.msg
    Particle.msg
    ParticleArray.msg
+   PolygonArray.msg
    GRState.msg
    GRStateArray.msg
    ControlFSMState.msg
