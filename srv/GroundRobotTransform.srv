@@ -4,5 +4,6 @@ int8 NONE = 0
 int8 GBFRAME = 1
 int8 LOCALFRAME = 2
 int8 state
+int8 gb_id
 ---
 bool success
