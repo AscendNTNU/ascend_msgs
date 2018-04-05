@@ -80,6 +80,7 @@ add_service_files(
    StringService.srv
    ReloadConfig.srv
    PathPlanner.srv
+   GroundRobotTransform.srv
 )
 
 ## Generate actions in the 'action' folder
