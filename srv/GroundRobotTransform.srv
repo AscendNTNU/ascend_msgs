@@ -1,0 +1,8 @@
+int8 NONE = 0
+
+#Frametype
+int8 GBFRAME = 1
+int8 LOCALFRAME = 2
+int8 state
+---
+bool success
