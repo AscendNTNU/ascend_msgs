@@ -39,6 +39,7 @@ int8 eventType
 float32 x
 float32 y
 float32 z
+int8 gb_id
 ---
 bool accepted
 string errorMsg
