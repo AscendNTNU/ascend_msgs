@@ -12,6 +12,7 @@ int8 CALLER_DEBUGGER = 51
 
 float32 dx
 float32 dy
+float32 z
 float32 reward
 int8 cmd #Action type
 int8 target_id
