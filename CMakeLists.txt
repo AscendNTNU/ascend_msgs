@@ -64,6 +64,7 @@ add_message_files(
    ParticleArray.msg
    GRState.msg
    GRStateArray.msg
+   ObstacleBoundingBoxes.msg
 )
 
 ## Generate services in the 'srv' folder
