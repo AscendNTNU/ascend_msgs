@@ -69,6 +69,7 @@ add_message_files(
    AIWorldObservation.msg
    PointArrayStamped.msg
    LandDetector.msg
+   ObstacleBoundingBoxes.msg
 )
 
 ## Generate services in the 'srv' folder
