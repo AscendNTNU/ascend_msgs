@@ -1,0 +1,11 @@
+int8 armed
+int8 linked_with_px4
+string px4_mode
+string current_operation
+string current_state
+float32 target_pose_x
+float32 target_pose_y
+float32 target_pose_z
+float64 half_boundry_x
+float64 half_boundry_y
+float64 half_boundry_z

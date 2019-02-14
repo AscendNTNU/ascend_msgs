@@ -65,10 +65,10 @@ add_message_files(
    PolygonArray.msg
    GRState.msg
    GRStateArray.msg
-   ControlFSMState.msg
+   ObstacleBoundingBoxes.msg
+   FluidFsmStatus.msg
    AIWorldObservation.msg
    PointArrayStamped.msg
-   LandDetector.msg
 )
 
 ## Generate services in the 'srv' folder
