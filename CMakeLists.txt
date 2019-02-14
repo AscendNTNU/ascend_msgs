@@ -62,10 +62,13 @@ add_message_files(
    DetectedRobotsGlobalPositions.msg
    Particle.msg
    ParticleArray.msg
+   PolygonArray.msg
    GRState.msg
    GRStateArray.msg
    ObstacleBoundingBoxes.msg
    FluidFsmStatus.msg
+   AIWorldObservation.msg
+   PointArrayStamped.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -73,6 +76,11 @@ add_service_files(
    FILES
    ControlFSMEvent.srv
    PositionWarning.srv
+   ControlFSMSetActionState.srv
+   StringService.srv
+   ReloadConfig.srv
+   PathPlanner.srv
+   GroundRobotTransform.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,0 +1,6 @@
+bool ai_enabled
+bool debug_enabled
+bool ai_relative_restrictions
+bool ai_global_restrictions
+---
+bool result
