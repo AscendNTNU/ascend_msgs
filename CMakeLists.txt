@@ -65,6 +65,9 @@ add_message_files(
    GRState.msg
    GRStateArray.msg
    ObstacleBoundingBoxes.msg
+   BodyPartDetection.msg
+   PersonDetection.msg
+   Persons.msg
 )
 
 ## Generate services in the 'srv' folder
