@@ -52,6 +52,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    ObstacleBoundingBoxes.msg
+   BodyPartDetection.msg
+   PersonDetection.msg
+   Persons.msg
    FluidFsmStatus.msg
 )
 
