@@ -6,6 +6,9 @@ string current_state
 float32 target_pose_x
 float32 target_pose_y
 float32 target_pose_z
-float64 half_boundry_x
-float64 half_boundry_y
-float64 half_boundry_z
+float64 min_x
+float64 min_y
+float64 min_z
+float64 max_x
+float64 max_y
+float64 max_z
