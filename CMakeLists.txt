@@ -51,37 +51,22 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
-   LineCounter.msg
-   ObstaclePolar.msg
-   ObstaclePolarArray.msg
-   PointArray.msg
-   PathPlannerPlan.msg
-   JetsonStatus.msg
-   BoolStamped.msg
-   DetectedRobots.msg
-   DetectedRobotsGlobalPositions.msg
-   Particle.msg
-   ParticleArray.msg
-   GRState.msg
-   GRStateArray.msg
    ObstacleBoundingBoxes.msg
    BodyPartDetection.msg
    PersonDetection.msg
    Persons.msg
+   FluidFsmStatus.msg
 )
 
 ## Generate services in the 'srv' folder
-add_service_files(
-   FILES
-   ControlFSMEvent.srv
-   PositionWarning.srv
-)
+#add_service_files(
+#   FILES
+#)
 
 ## Generate actions in the 'action' folder
-add_action_files(
-   FILES
-   ControlFSM.action
- )
+#add_action_files(
+#   FILES
+# )
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(

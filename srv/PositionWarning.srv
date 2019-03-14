@@ -1,4 +1,0 @@
----
-bool success
-
-# Used to warn the logic surrounding the kalman filter on the pixhawk that the position estimate from position_fuser is about to change
