@@ -56,6 +56,7 @@ add_message_files(
    PersonDetection.msg
    Persons.msg
    FluidFsmStatus.msg
+   GhcFluidCommand.msg
 )
 
 ## Generate services in the 'srv' folder
