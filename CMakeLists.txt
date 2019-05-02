@@ -57,6 +57,7 @@ add_message_files(
    Persons.msg
    FluidFsmStatus.msg
    GhcFluidCommand.msg
+   GhcEvidenceGrid.msg
 )
 
 ## Generate services in the 'srv' folder
