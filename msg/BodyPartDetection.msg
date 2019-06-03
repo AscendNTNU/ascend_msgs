@@ -1,4 +1,3 @@
 uint32 part_id
-uint32 x
-uint32 y
+geometry_msgs/Point point
 float32 confidence
