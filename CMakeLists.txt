@@ -58,7 +58,7 @@ add_message_files(
    BodyPartDetection.msg
    PersonDetection.msg
    Persons.msg
-   FluidFsmStatus.msg
+   FluidStatus.msg
    GhcFluidCommand.msg
 )
 
