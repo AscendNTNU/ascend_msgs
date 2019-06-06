@@ -1,7 +1,6 @@
-Header header
-
-std_msgs/MultiArrayDimension data_layout
-std_msgs/MultiArrayDimension origin_layout
-std_msgs/Int32[] data
-std_msgs/Int32[] origin
-std_msgs/Float32 delta
+int32 array_size
+int32 array_nrows
+int32 origin_size
+int32[] array
+int32[] origin
+float32 delta
