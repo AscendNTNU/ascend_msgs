@@ -13,7 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
   actionlib_msgs
+  mavros_msgs
 )
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -52,10 +54,11 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    ObstacleBoundingBoxes.msg
+   ObstacleAvoidanceCompletion.msg
    BodyPartDetection.msg
    PersonDetection.msg
    Persons.msg
-   FluidFsmStatus.msg
+   FluidStatus.msg
    GhcFluidCommand.msg
    GhcEvidenceGrid.msg
 )
@@ -77,6 +80,7 @@ add_message_files(
    sensor_msgs
    geometry_msgs
    actionlib_msgs
+   mavros_msgs
  )
 
 ################################################
@@ -111,7 +115,7 @@ add_message_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ascend_msgs
-  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs sensor_msgs
+  CATKIN_DEPENDS message_runtime geometry_msgs std_msgs sensor_msgs mavros_msgs actionlib_msgs
 #  DEPENDS system_lib
 )
 
