@@ -8,4 +8,3 @@ uint8 OPERATION_POSITION_FOLLOW = 4
 geometry_msgs/Pose pose
 uint8 operation # The operation type (values defined above)
 
-
