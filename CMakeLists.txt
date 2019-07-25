@@ -63,6 +63,7 @@ add_message_files(
    GhcEvidenceGrid.msg
    NavPathPoint.msg
    NavPath.msg
+   ObstacleAvoidanceSetpoint.msg
 )
 
 ## Generate services in the 'srv' folder
