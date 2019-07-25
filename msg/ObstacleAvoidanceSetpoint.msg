@@ -1,0 +1,2 @@
+mavros_msgs/PositionTarget setpoint
+string state
