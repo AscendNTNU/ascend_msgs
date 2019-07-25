@@ -60,6 +60,10 @@ add_message_files(
    Persons.msg
    FluidStatus.msg
    GhcFluidCommand.msg
+   GhcEvidenceGrid.msg
+   NavPathPoint.msg
+   NavPath.msg
+   ObstacleAvoidanceSetpoint.msg
 )
 
 ## Generate services in the 'srv' folder
