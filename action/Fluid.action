@@ -1,6 +1,6 @@
 # The action goal
 std_msgs/String type 
-mavros_msgs/PositionTarget setpoint
+geometry_msgs/Point setpoint
 
 ---
 # Action result

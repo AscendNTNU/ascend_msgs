@@ -4,7 +4,7 @@ string px4_mode
 string current_operation
 string current_state
 
-mavros_msgs/PositionTarget setpoint
+geometry_msgs/Point setpoint
 
 geometry_msgs/Point32 min
 geometry_msgs/Point32 max 
