@@ -1,0 +1,13 @@
+# The action goal
+std_msgs/String type 
+mavros_msgs/PositionTarget setpoint
+
+---
+# Action result
+geometry_msgs/PoseStamped pose_stamped 
+std_msgs/String state 
+
+---
+# Action feedback
+geometry_msgs/PoseStamped pose_stamped
+std_msgs/String state 
