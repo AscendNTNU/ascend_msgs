@@ -1,5 +1,5 @@
 # The action goal
-std_msgs/String type 
+std_msgs/String mode 
 geometry_msgs/Point setpoint
 
 ---
