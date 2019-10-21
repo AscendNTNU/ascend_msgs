@@ -1,6 +1,8 @@
 # The action goal
-std_msgs/String mode 
-geometry_msgs/Point setpoint
+
+std_msgs/String mode
+std_msgs/String state 
+geometry_msgs/Point[] path
 
 ---
 # Action result
