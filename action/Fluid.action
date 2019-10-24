@@ -1,15 +1,15 @@
 # The action goal
 
-std_msgs/String mode
-std_msgs/String state 
+string controller 
+string state 
 geometry_msgs/Point[] path
 
 ---
 # Action result
 geometry_msgs/PoseStamped pose_stamped 
-std_msgs/String state 
+string state 
 
 ---
 # Action feedback
 geometry_msgs/PoseStamped pose_stamped
-std_msgs/String state 
+string state 
