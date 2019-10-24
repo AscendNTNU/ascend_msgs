@@ -54,7 +54,6 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    ObstacleBoundingBoxes.msg
-   ObstacleAvoidanceCompletion.msg
    BodyPartDetection.msg
    PersonDetection.msg
    Persons.msg
@@ -63,7 +62,6 @@ add_message_files(
    GhcEvidenceGrid.msg
    NavPathPoint.msg
    NavPath.msg
-   ObstacleAvoidanceSetpoint.msg
 )
 
 ## Generate services in the 'srv' folder
