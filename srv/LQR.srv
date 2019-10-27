@@ -1,0 +1,24 @@
+# State
+float64 x
+float64 y
+float64 yaw
+float64 v
+
+# Curve
+float64[] cx
+float64[] cy
+float64[] cyaw
+float64[] ck 
+float64 e
+float64 e_th
+---
+
+# State
+float64 x
+float64 y
+float64 yaw
+float64 v
+
+float64 e
+float64 e_th
+
