@@ -1,1 +1,0 @@
-StratsimCreateCircle[] circles

@@ -1,5 +1,0 @@
-# Create a new circle
-ascend_msgs/StratsimCreateCircle circle
----
-# Return the ID of created circle
-uint32 id

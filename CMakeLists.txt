@@ -53,34 +53,30 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
-   ObstacleBoundingBoxes.msg
-   BodyPartDetection.msg
-   PersonDetection.msg
-   Persons.msg
    FluidStatus.msg
-   GhcFluidCommand.msg
-   GhcEvidenceGrid.msg
-   NavPathPoint.msg
-   NavPath.msg
+   Spline.msg
 )
 
 ## Generate services in the 'srv' folder
-#add_service_files(
-#   FILES
-#)
+add_service_files(
+  FILES
+  PathOptimizerService.srv
+  SplineService.srv
+  LQR.srv
+)
 
 # Generate actions in the 'action' folder
 add_action_files(DIRECTORY action)
 
 ## Generate added messages and services with any dependencies listed here
- generate_messages(
-   DEPENDENCIES
-   std_msgs
-   sensor_msgs
-   geometry_msgs
-   actionlib_msgs
-   mavros_msgs
- )
+generate_messages(
+    DEPENDENCIES
+    std_msgs
+    sensor_msgs
+    geometry_msgs
+    actionlib_msgs
+    mavros_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
