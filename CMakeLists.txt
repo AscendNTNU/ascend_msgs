@@ -62,7 +62,7 @@ add_service_files(
   FILES
   PathOptimizerService.srv
   SplineService.srv
-  LQR.srv
+  ObstacleAvoidanceService.srv
 )
 
 # Generate actions in the 'action' folder

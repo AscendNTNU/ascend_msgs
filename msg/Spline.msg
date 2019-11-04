@@ -2,4 +2,5 @@
 float64[] x
 float64[] y
 float64[] z
-float64 timestamp
+float64 start
+float64 end
