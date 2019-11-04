@@ -1,2 +1,0 @@
-mavros_msgs/PositionTarget setpoint
-bool completed

@@ -1,1 +1,0 @@
-NavPathPoint[] path
