@@ -55,6 +55,7 @@ add_message_files(
    FILES
    FluidStatus.msg
    Spline.msg
+   MastObservation.msg
 )
 
 ## Generate services in the 'srv' folder
