@@ -1,6 +1,5 @@
 # The action goal
 
-string controller 
 string state 
 geometry_msgs/Point[] path
 
