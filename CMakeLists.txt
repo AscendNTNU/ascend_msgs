@@ -54,14 +54,11 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    FluidStatus.msg
-   Spline.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  PathOptimizerService.srv
-  SplineService.srv
   ObstacleAvoidanceService.srv
 )
 
