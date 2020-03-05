@@ -56,6 +56,7 @@ add_message_files(
    FluidStatus.msg
    Path.msg
    TwoInts.msg
+   GnssNed.msg
 )
 
 ## Generate services in the 'srv' folder
