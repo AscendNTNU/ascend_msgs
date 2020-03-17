@@ -57,6 +57,7 @@ add_message_files(
    Path.msg
    TwoInts.msg
    GnssNed.msg
+   GnssEcef.msg
 )
 
 ## Generate services in the 'srv' folder
