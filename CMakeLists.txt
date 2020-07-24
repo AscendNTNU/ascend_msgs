@@ -61,6 +61,8 @@ add_message_files(
 	MastCandidate.msg
    MastCandidateList.msg
    MastObservation.msg
+   GnssRxmRawX.msg
+   GnssRxmSfrbX.msg
 )
 
 ## Generate services in the 'srv' folder
